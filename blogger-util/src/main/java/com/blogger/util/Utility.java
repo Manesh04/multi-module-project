@@ -12,4 +12,8 @@ public class Utility {
     public static boolean isNotNull(String message){
         return !isNull(message);
     }
+
+    public void testJenkins(){
+        System.out.println("In Utility Module");
+    }
 }
