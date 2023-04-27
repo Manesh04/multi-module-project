@@ -13,7 +13,4 @@ public class Utility {
         return !isNull(message);
     }
 
-    public void testJenkins(){
-        System.out.println("In Utility Module");
-    }
 }
