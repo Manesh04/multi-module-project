@@ -5,8 +5,10 @@ public class Utility {
     public static boolean isNull(String message){
         if(message==null || message.isEmpty()){
             return true;
+        }else {
+            return false;
         }
-        return false;
+
     }
 
     public static boolean isNotNull(String message){
